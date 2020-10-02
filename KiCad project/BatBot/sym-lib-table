@@ -175,4 +175,5 @@
   (lib (name GCM21BR11E105KA42L)(type Legacy)(uri "/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GCM21BR11E105KA42L/GCM21BR11E105KA42L.lib")(options "")(descr ""))
   (lib (name eec)(type Legacy)(uri "/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/Conn_Molex_54550-1271/eec.lib")(options "")(descr ""))
   (lib (name CRG0402F1M0)(type Legacy)(uri "/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/CRG0402F1M0/CRG0402F1M0.lib")(options "")(descr ""))
+  (lib (name BatBot-rescue)(type Legacy)(uri ${KIPRJMOD}/BatBot-rescue.lib)(options "")(descr ""))
 )
