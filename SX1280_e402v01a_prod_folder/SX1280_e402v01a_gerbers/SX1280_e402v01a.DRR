@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: SX1280_e402v01a.PcbDoc   21.02.2017  13:29:57
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SX1280_e402v01a.TXT
+EIA File   : SX1280_e402v01a.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.2mm (7.874mil)         Round          8                10.32 mm (0.41 Inch)
+T2        0.25mm (9.842mil)        Round          1004             2054.16 mm (80.87 Inch)
+T3        0.3mm (11.811mil)        Round          126              385.25 mm (15.17 Inch)
+T4        0.33mm (12.992mil)       Round          2                1.20 mm (0.05 Inch)
+T5        0.5mm (19.685mil)        Round          2                5.30 mm (0.21 Inch)
+T6        0.9mm (35.433mil)        Round          72               307.54 mm (12.11 Inch)
+T7        1mm (39.37mil)           Round          5                88.77 mm (3.49 Inch)
+---------------------------------------------------------------------------
+Totals                                            1219             2852.53 mm (112.30 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

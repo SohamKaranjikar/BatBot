@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/BatBot/BatBot.sch</source>
+    <date>Wednesday, September 30, 2020 at 10:15:36 PM</date>
+    <tool>Eeschema (5.1.6-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BatBot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>STM32F439ZIYx</value>
+      <footprint>Package_CSP:ST_WLCSP-143_Die419</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32F4" part="STM32F439ZIYx" description="ARM Cortex-M4 MCU, 2048KB flash, 192KB RAM, 180MHz, 1.7-3.6V, 114 GPIO, WLCSP-143"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E2EEB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM1117-3.3</value>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM1117-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F3B90</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MPU-9250</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</footprint>
+      <datasheet>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="MPU-9250" description="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F702CF8</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LTST-C190KRKT</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</field>
+        <field name="Description">LED RED CLEAR CHIP SMD</field>
+        <field name="Digi-Key_PN">160-1436-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C190KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C190KRKT" description="LED RED CLEAR CHIP SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F706024</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>NX3225GD-8MHZ-STD-CRA-3</value>
+      <footprint>digikey-footprints:SMD-2_3.2x2.5mm</footprint>
+      <datasheet>http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</datasheet>
+      <fields>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="DK_Datasheet_Link">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567</field>
+        <field name="Description">CRYSTAL 8.0000MHZ 8PF SMD</field>
+        <field name="Digi-Key_PN">644-1178-1-ND</field>
+        <field name="Family">Crystals</field>
+        <field name="MPN">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Manufacturer">NDK America, Inc.</field>
+        <field name="Status">Active</field>
+        <field name="val">8MHz</field>
+      </fields>
+      <libsource lib="dk_Crystals" part="NX3225GD-8MHZ-STD-CRA-3" description="CRYSTAL 8.0000MHZ 8PF SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F722B8D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LTST-C190KRKT</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</field>
+        <field name="Description">LED RED CLEAR CHIP SMD</field>
+        <field name="Digi-Key_PN">160-1436-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C190KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C190KRKT" description="LED RED CLEAR CHIP SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F723D06</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LTST-C190KRKT</value>
+      <footprint>digikey-footprints:0603</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</field>
+        <field name="Description">LED RED CLEAR CHIP SMD</field>
+        <field name="Digi-Key_PN">160-1436-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LTST-C190KRKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_LED-Indication-Discrete" part="LTST-C190KRKT" description="LED RED CLEAR CHIP SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7248A5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>GRM0335C1H8R0DA01D</value>
+      <footprint>CAPC0603X33N</footprint>
+      <fields>
+        <field name="val">8pF</field>
+      </fields>
+      <libsource lib="GRM0335C1H8R0DA01D" part="GRM0335C1H8R0DA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F726B20</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>GRM0335C1H8R0DA01D</value>
+      <footprint>CAPC0603X33N</footprint>
+      <fields>
+        <field name="Val">8pF</field>
+      </fields>
+      <libsource lib="GRM0335C1H8R0DA01D" part="GRM0335C1H8R0DA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F72723F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RC0201FR-07100RL</value>
+      <footprint>YAG_R0201_YAG</footprint>
+      <fields>
+        <field name="Value">100</field>
+      </fields>
+      <libsource lib="2020-09-26_23-31-02" part="RC0201FR-07100RL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F73000D</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0805YC104K4Z4A</value>
+      <footprint>CAPC2012X140N</footprint>
+      <fields>
+        <field name="val">.1uF</field>
+      </fields>
+      <libsource lib="0805YC104K4Z4A" part="0805YC104K4Z4A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F741873</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0805YC104K4Z4A</value>
+      <footprint>CAPC2012X140N</footprint>
+      <fields>
+        <field name="val">.1uF</field>
+      </fields>
+      <libsource lib="0805YC104K4Z4A" part="0805YC104K4Z4A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7420AA</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>06035C103MAT2A</value>
+      <footprint>CAPC1608X90N</footprint>
+      <fields>
+        <field name="val">10nF</field>
+      </fields>
+      <libsource lib="06035C103MAT2A" part="06035C103MAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F744354</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>nRF24L01P</value>
+      <footprint>Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm</footprint>
+      <datasheet>http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf</datasheet>
+      <libsource lib="RF" part="nRF24L01P" description="nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6FCB7C</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>XRCHA16M000F0A01R0</value>
+      <footprint>OSC_XRCHA16M000F0A01R0</footprint>
+      <datasheet>Murata</datasheet>
+      <fields>
+        <field name="Field4">March 21, 2017</field>
+        <field name="Field5">Manufacturer Recommendations</field>
+        <field name="Field6">0.80mm</field>
+        <field name="val">16MHz</field>
+      </fields>
+      <libsource lib="XRCHA16M000F0A01R0" part="XRCHA16M000F0A01R0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F760091</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>GRM0335C1H8R0DA01D</value>
+      <footprint>CAPC0603X33N</footprint>
+      <fields>
+        <field name="val">8pF</field>
+      </fields>
+      <libsource lib="GRM0335C1H8R0DA01D" part="GRM0335C1H8R0DA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F761EF3</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>GRM0335C1H8R0DA01D</value>
+      <footprint>CAPC0603X33N</footprint>
+      <fields>
+        <field name="val">8pF</field>
+      </fields>
+      <libsource lib="GRM0335C1H8R0DA01D" part="GRM0335C1H8R0DA01D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F762B66</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>06035C103MAT2A</value>
+      <footprint>CAPC1608X90N</footprint>
+      <fields>
+        <field name="val">10nF</field>
+      </fields>
+      <libsource lib="06035C103MAT2A" part="06035C103MAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F770A21</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0402ZC102KAT2A</value>
+      <footprint>CAPC1005X56N</footprint>
+      <fields>
+        <field name="val">1nF</field>
+      </fields>
+      <libsource lib="0402ZC102KAT2A" part="0402ZC102KAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F774DEA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>8-1676481-3</value>
+      <footprint>RESC1608X50N</footprint>
+      <datasheet>Compliant</datasheet>
+      <fields>
+        <field name="Field4">.1%</field>
+        <field name="Field5">8-1676481-3</field>
+        <field name="Field6">.063 W</field>
+        <field name="Field7">22K</field>
+        <field name="Field8">50 V</field>
+        <field name="Field9">0603</field>
+      </fields>
+      <libsource lib="8-1676481-3" part="8-1676481-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F77CB24</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>06035C333KAT2A</value>
+      <footprint>CAPC1608X90N</footprint>
+      <fields>
+        <field name="val">33nF</field>
+      </fields>
+      <libsource lib="06035C333KAT2A" part="06035C333KAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7847A6</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>CC0603BRNPO0BN4R7</value>
+      <footprint>CAPC1608X90</footprint>
+      <fields>
+        <field name="val">4.7pF</field>
+      </fields>
+      <libsource lib="CC0603BRNPO0BN4R7" part="CC0603BRNPO0BN4R7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79148E</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>EMK212B7225MG-T</value>
+      <footprint>CAPC2012X135N</footprint>
+      <fields>
+        <field name="val">2.2nF</field>
+      </fields>
+      <libsource lib="EMK212B7225MG-T" part="EMK212B7225MG-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79526C</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>CE201210-8N2J</value>
+      <footprint>INDC2012X103N</footprint>
+      <fields>
+        <field name="val">8.2nH</field>
+      </fields>
+      <libsource lib="CE201210-8N2J" part="CE201210-8N2J" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B68D8</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>AQ1052N7S-T</value>
+      <footprint>INDC1006X55N</footprint>
+      <fields>
+        <field name="val">2.7nH</field>
+      </fields>
+      <libsource lib="AQ1052N7S-T" part="AQ1052N7S-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7AFF39</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>AIMC-0805-3N9S-T</value>
+      <footprint>INDC2012X115N</footprint>
+      <fields>
+        <field name="val">3.9nH</field>
+      </fields>
+      <libsource lib="AIMC-0805-3N9S-T" part="AIMC-0805-3N9S-T" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C5FF1</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>AC0402BRNPO9BN1R5</value>
+      <footprint>CAPC1005X55N</footprint>
+      <fields>
+        <field name="val">1.5pF</field>
+      </fields>
+      <libsource lib="AC0402BRNPO9BN1R5" part="AC0402BRNPO9BN1R5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7CA46F</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>CC0603CRNPO8BN1R0</value>
+      <footprint>CAPC1608X90</footprint>
+      <fields>
+        <field name="val">1pF</field>
+      </fields>
+      <libsource lib="CC0603CRNPO8BN1R0" part="CC0603CRNPO8BN1R0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D04AF</tstamp>
+    </comp>
+    <comp ref="ANT1">
+      <value>AMCA31-2R450G-S1F-T3</value>
+      <footprint>ANT_AMCA31-2R450G-S1F-T3</footprint>
+      <datasheet>1.4mm</datasheet>
+      <fields>
+        <field name="Field4">Manufacturer Recommendation</field>
+        <field name="Field5">05.17.2017</field>
+        <field name="Field6">ABRACON</field>
+      </fields>
+      <libsource lib="AMCA31-2R450G-S1F-T3" part="AMCA31-2R450G-S1F-T3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D8633</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1-1622826-8</value>
+      <footprint>RESC1005X35N</footprint>
+      <datasheet>0402</datasheet>
+      <fields>
+        <field name="Field4">50 V</field>
+        <field name="Field5">Compliant with Exemptions</field>
+        <field name="Field6">5%</field>
+        <field name="Field7">1K</field>
+        <field name="Field8">1-1622826-8</field>
+        <field name="Field9">.063 W</field>
+      </fields>
+      <libsource lib="1-1622826-8" part="1-1622826-8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7E2CD3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1-1622826-8</value>
+      <footprint>RESC1005X35N</footprint>
+      <datasheet>0402</datasheet>
+      <fields>
+        <field name="Field4">50 V</field>
+        <field name="Field5">Compliant with Exemptions</field>
+        <field name="Field6">5%</field>
+        <field name="Field7">1K</field>
+        <field name="Field8">1-1622826-8</field>
+        <field name="Field9">.063 W</field>
+      </fields>
+      <libsource lib="1-1622826-8" part="1-1622826-8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7E71F7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CL31A107MQHNNNE</value>
+      <footprint>CAPC3216X180N</footprint>
+      <fields>
+        <field name="val">100uF</field>
+      </fields>
+      <libsource lib="CL31A107MQHNNNE" part="CL31A107MQHNNNE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7E8DE0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>GCJ21BR71A106KE01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">10uF</field>
+      </fields>
+      <libsource lib="GCJ21BR71A106KE01L" part="GCJ21BR71A106KE01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F2FE0</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75CC9A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CBB27</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CD548</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CD8E1</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CDD0A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CE193</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CEA73</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CF0AA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CF45B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CF83C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CFA3B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8CFDA4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D05A5</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>GRM188C71E225KE11J</value>
+      <footprint>CAPC1608X100N</footprint>
+      <fields>
+        <field name="val">2.2uF</field>
+      </fields>
+      <libsource lib="GRM188C71E225KE11J" part="GRM188C71E225KE11J" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F91DB69</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>GRM188C71E225KE11J</value>
+      <footprint>CAPC1608X100N</footprint>
+      <fields>
+        <field name="val">2.2uF</field>
+      </fields>
+      <libsource lib="GRM188C71E225KE11J" part="GRM188C71E225KE11J" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F929638</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>FSM8JH</value>
+      <footprint>SW_FSM8JH</footprint>
+      <datasheet>C10</datasheet>
+      <fields>
+        <field name="Field4">TE CONNECTIVITY</field>
+        <field name="Field5">MANUFACTURER RECOMMENDATIONS</field>
+      </fields>
+      <libsource lib="FSM8JH" part="FSM8JH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F981A65</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>8-1676481-3</value>
+      <footprint>RESC1608X50N</footprint>
+      <datasheet>Compliant</datasheet>
+      <fields>
+        <field name="Field4">.1%</field>
+        <field name="Field5">8-1676481-3</field>
+        <field name="Field6">.063 W</field>
+        <field name="Field7">22K</field>
+        <field name="Field8">50 V</field>
+        <field name="Field9">0603</field>
+      </fields>
+      <libsource lib="8-1676481-3" part="8-1676481-3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99A0FA</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>GCE21BR71H104KA01L</value>
+      <footprint>CAPC2012X145N</footprint>
+      <fields>
+        <field name="val">100nF</field>
+      </fields>
+      <libsource lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D1326</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>06035C103MAT2A</value>
+      <footprint>CAPC1608X90N</footprint>
+      <fields>
+        <field name="val">10nF</field>
+      </fields>
+      <libsource lib="06035C103MAT2A" part="06035C103MAT2A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA26896</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>GCM21BR11E105KA42L</value>
+      <footprint>CAPC2012X140N</footprint>
+      <fields>
+        <field name="val">1uF</field>
+      </fields>
+      <libsource lib="GCM21BR11E105KA42L" part="GCM21BR11E105KA42L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA373DD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>54550-1271</value>
+      <footprint>Molex-54550-1271-*</footprint>
+      <datasheet>http://www.molex.com/webdocs/datasheets/pdf/en-us/0545501271_FFC_FPC_CONNECTORS.pdf</datasheet>
+      <fields>
+        <field name="Circuits Loaded">12</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www.molex.com/molex/index.jsp</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www.molex.com/pdm_docs/sd/545501271_sd.pdf</field>
+        <field name="Contact Position">Top</field>
+        <field name="Current Max per Contact">0.5A</field>
+        <field name="Durability mating cycles max">20</field>
+        <field name="Entry Angle">90degrees Angle</field>
+        <field name="Mated Height">1.20mm</field>
+        <field name="Material   Metal">Phosphor Bronze</field>
+        <field name="Material   Plating Mating">Gold</field>
+        <field name="Material   Plating Termination">Tin</field>
+        <field name="Mounting Technology">Surface Mount</field>
+        <field name="Number of Rows">1</field>
+        <field name="Orientation">Right Angle</field>
+        <field name="PCB Locator">No</field>
+        <field name="PCB Retention">Yes</field>
+        <field name="Package Description">12-Lead FPC Connector, Pitch 0.5 mm</field>
+        <field name="Package Version">Rev. M, 12/2009</field>
+        <field name="Packing">Tape and Reel</field>
+        <field name="Pitch   Mating Interface">0.50mm</field>
+        <field name="Polarized to PCB">Yes</field>
+        <field name="Stackable">No</field>
+        <field name="Voltage Max">50V</field>
+        <field name="category">Conn</field>
+        <field name="ciiva ids">3405311</field>
+        <field name="imported">yes</field>
+        <field name="library id">6fefad498c7d1dcc</field>
+        <field name="manufacturer">Molex</field>
+        <field name="package">54550-1271</field>
+        <field name="release date">1411372735</field>
+        <field name="rohs">Yes</field>
+        <field name="vault revision">E29082AD-DFCB-4921-B0FD-859FA8CB5E1B</field>
+      </fields>
+      <libsource lib="eec" part="54550-1271" description="54550-1271"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB5E94B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1-1622826-8</value>
+      <footprint>RESC1005X35N</footprint>
+      <datasheet>0402</datasheet>
+      <fields>
+        <field name="Field4">50 V</field>
+        <field name="Field5">Compliant with Exemptions</field>
+        <field name="Field6">5%</field>
+        <field name="Field7">1K</field>
+        <field name="Field8">1-1622826-8</field>
+        <field name="Field9">.063 W</field>
+      </fields>
+      <libsource lib="1-1622826-8" part="1-1622826-8" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCD5C7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0402ZC102KAT2A" part="0402ZC102KAT2A">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0402ZC102KAT2A</field>
+        <field name="Footprint">CAPC1005X56N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="06035C103MAT2A" part="06035C103MAT2A">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">06035C103MAT2A</field>
+        <field name="Footprint">CAPC1608X90N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="06035C333KAT2A" part="06035C333KAT2A">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">06035C333KAT2A</field>
+        <field name="Footprint">CAPC1608X90N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0805YC104K4Z4A" part="0805YC104K4Z4A">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0805YC104K4Z4A</field>
+        <field name="Footprint">CAPC2012X140N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1-1622826-8" part="1-1622826-8">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1-1622826-8</field>
+        <field name="Footprint">RESC1005X35N</field>
+        <field name="Datasheet">0402</field>
+        <field name="Field4">50 V</field>
+        <field name="Field5">Compliant with Exemptions</field>
+        <field name="Field6">5%</field>
+        <field name="Field7">1K</field>
+        <field name="Field8">1-1622826-8</field>
+        <field name="Field9">.063 W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="2020-09-26_23-31-02" part="RC0201FR-07100RL">
+      <footprints>
+        <fp>YAG_R0201_YAG</fp>
+        <fp>YAG_R0201_YAG-M</fp>
+        <fp>YAG_R0201_YAG-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0201FR-07100RL</field>
+        <field name="Footprint">YAG_R0201_YAG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="8-1676481-3" part="8-1676481-3">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">8-1676481-3</field>
+        <field name="Footprint">RESC1608X50N</field>
+        <field name="Datasheet">Compliant</field>
+        <field name="Field4">.1%</field>
+        <field name="Field5">8-1676481-3</field>
+        <field name="Field6">.063 W</field>
+        <field name="Field7">22K</field>
+        <field name="Field8">50 V</field>
+        <field name="Field9">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AC0402BRNPO9BN1R5" part="AC0402BRNPO9BN1R5">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">AC0402BRNPO9BN1R5</field>
+        <field name="Footprint">CAPC1005X55N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIMC-0805-3N9S-T" part="AIMC-0805-3N9S-T">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">AIMC-0805-3N9S-T</field>
+        <field name="Footprint">INDC2012X115N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AMCA31-2R450G-S1F-T3" part="AMCA31-2R450G-S1F-T3">
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">AMCA31-2R450G-S1F-T3</field>
+        <field name="Footprint">ANT_AMCA31-2R450G-S1F-T3</field>
+        <field name="Datasheet">1.4mm</field>
+        <field name="Field4">Manufacturer Recommendation</field>
+        <field name="Field5">05.17.2017</field>
+        <field name="Field6">ABRACON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AQ1052N7S-T" part="AQ1052N7S-T">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">AQ1052N7S-T</field>
+        <field name="Footprint">INDC1006X55N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC0603BRNPO0BN4R7" part="CC0603BRNPO0BN4R7">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603BRNPO0BN4R7</field>
+        <field name="Footprint">CAPC1608X90</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC0603CRNPO8BN1R0" part="CC0603CRNPO8BN1R0">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603CRNPO8BN1R0</field>
+        <field name="Footprint">CAPC1608X90</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CE201210-8N2J" part="CE201210-8N2J">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">CE201210-8N2J</field>
+        <field name="Footprint">INDC2012X103N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CL31A107MQHNNNE" part="CL31A107MQHNNNE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL31A107MQHNNNE</field>
+        <field name="Footprint">CAPC3216X180N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EMK212B7225MG-T" part="EMK212B7225MG-T">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EMK212B7225MG-T</field>
+        <field name="Footprint">CAPC2012X135N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSM8JH" part="FSM8JH">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">FSM8JH</field>
+        <field name="Footprint">SW_FSM8JH</field>
+        <field name="Datasheet">C10</field>
+        <field name="Field4">TE CONNECTIVITY</field>
+        <field name="Field5">MANUFACTURER RECOMMENDATIONS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GCE21BR71H104KA01L" part="GCE21BR71H104KA01L">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCE21BR71H104KA01L</field>
+        <field name="Footprint">CAPC2012X145N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GCJ21BR71A106KE01L" part="GCJ21BR71A106KE01L">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCJ21BR71A106KE01L</field>
+        <field name="Footprint">CAPC2012X145N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GCM21BR11E105KA42L" part="GCM21BR11E105KA42L">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM21BR11E105KA42L</field>
+        <field name="Footprint">CAPC2012X140N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM0335C1H8R0DA01D" part="GRM0335C1H8R0DA01D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM0335C1H8R0DA01D</field>
+        <field name="Footprint">CAPC0603X33N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GRM188C71E225KE11J" part="GRM188C71E225KE11J">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM188C71E225KE11J</field>
+        <field name="Footprint">CAPC1608X100N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F4" part="STM32F439ZGYx">
+      <aliases>
+        <alias>STM32F439ZIYx</alias>
+      </aliases>
+      <description>ARM Cortex-M4 MCU, 1024KB flash, 192KB RAM, 180MHz, 1.7-3.6V, 114 GPIO, WLCSP-143</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00077036.pdf</docs>
+      <footprints>
+        <fp>ST_WLCSP*Die419*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F439ZGYx</field>
+        <field name="Footprint">Package_CSP:ST_WLCSP-143_Die419</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VDD" type="power_in"/>
+        <pin num="A2" name="PC10" type="BiDi"/>
+        <pin num="A3" name="PD2" type="BiDi"/>
+        <pin num="A4" name="PD5" type="BiDi"/>
+        <pin num="A5" name="PD7" type="BiDi"/>
+        <pin num="A6" name="PG12" type="BiDi"/>
+        <pin num="A7" name="PG15" type="BiDi"/>
+        <pin num="A8" name="PB6" type="BiDi"/>
+        <pin num="A9" name="PB8" type="BiDi"/>
+        <pin num="A10" name="PE1" type="BiDi"/>
+        <pin num="A11" name="PDR_ON" type="input"/>
+        <pin num="B1" name="PA14" type="BiDi"/>
+        <pin num="B2" name="PC11" type="BiDi"/>
+        <pin num="B3" name="PD0" type="BiDi"/>
+        <pin num="B4" name="PD3" type="BiDi"/>
+        <pin num="B5" name="PD4" type="BiDi"/>
+        <pin num="B6" name="PG11" type="BiDi"/>
+        <pin num="B7" name="PB3" type="BiDi"/>
+        <pin num="B8" name="PB7" type="BiDi"/>
+        <pin num="B9" name="PB9" type="BiDi"/>
+        <pin num="B10" name="PE0" type="BiDi"/>
+        <pin num="B11" name="PE4" type="BiDi"/>
+        <pin num="C1" name="VDD" type="power_in"/>
+        <pin num="C2" name="PA15" type="BiDi"/>
+        <pin num="C3" name="PC12" type="BiDi"/>
+        <pin num="C4" name="PD1" type="BiDi"/>
+        <pin num="C5" name="VDD" type="power_in"/>
+        <pin num="C6" name="PG10" type="BiDi"/>
+        <pin num="C7" name="PB4" type="BiDi"/>
+        <pin num="C8" name="PB5" type="BiDi"/>
+        <pin num="C9" name="BOOT0" type="input"/>
+        <pin num="C10" name="PE3" type="BiDi"/>
+        <pin num="C11" name="VBAT" type="power_in"/>
+        <pin num="D1" name="VCAP_2" type="power_in"/>
+        <pin num="D2" name="VSS" type="power_in"/>
+        <pin num="D3" name="PA13" type="BiDi"/>
+        <pin num="D4" name="PA11" type="BiDi"/>
+        <pin num="D5" name="PA10" type="BiDi"/>
+        <pin num="D6" name="PG13" type="BiDi"/>
+        <pin num="D7" name="VDD" type="power_in"/>
+        <pin num="D8" name="PE2" type="BiDi"/>
+        <pin num="D9" name="PE5" type="BiDi"/>
+        <pin num="D10" name="PC13" type="BiDi"/>
+        <pin num="D11" name="PC14" type="BiDi"/>
+        <pin num="E1" name="PA12" type="BiDi"/>
+        <pin num="E2" name="PA9" type="BiDi"/>
+        <pin num="E3" name="PC9" type="BiDi"/>
+        <pin num="E4" name="PC8" type="BiDi"/>
+        <pin num="E5" name="PG9" type="BiDi"/>
+        <pin num="E6" name="VDD" type="power_in"/>
+        <pin num="E7" name="VSS" type="power_in"/>
+        <pin num="E8" name="PE6" type="BiDi"/>
+        <pin num="E9" name="PF1" type="BiDi"/>
+        <pin num="E10" name="VDD" type="power_in"/>
+        <pin num="E11" name="PC15" type="BiDi"/>
+        <pin num="F1" name="PA8" type="BiDi"/>
+        <pin num="F2" name="PC6" type="BiDi"/>
+        <pin num="F3" name="PC7" type="BiDi"/>
+        <pin num="F4" name="PD6" type="BiDi"/>
+        <pin num="F5" name="VSS" type="power_in"/>
+        <pin num="F6" name="PG14" type="BiDi"/>
+        <pin num="F7" name="PF7" type="BiDi"/>
+        <pin num="F8" name="PF5" type="BiDi"/>
+        <pin num="F9" name="PF4" type="BiDi"/>
+        <pin num="F10" name="PF2" type="BiDi"/>
+        <pin num="F11" name="PF0" type="BiDi"/>
+        <pin num="G1" name="VDD" type="power_in"/>
+        <pin num="G2" name="PG8" type="BiDi"/>
+        <pin num="G3" name="PG3" type="BiDi"/>
+        <pin num="G4" name="PG6" type="BiDi"/>
+        <pin num="G5" name="PG4" type="BiDi"/>
+        <pin num="G6" name="PG5" type="BiDi"/>
+        <pin num="G7" name="VDD" type="power_in"/>
+        <pin num="G8" name="PF9" type="BiDi"/>
+        <pin num="G9" name="PF10" type="BiDi"/>
+        <pin num="G10" name="PF6" type="BiDi"/>
+        <pin num="G11" name="PF3" type="BiDi"/>
+        <pin num="H1" name="PG7" type="BiDi"/>
+        <pin num="H2" name="VSS" type="power_in"/>
+        <pin num="H3" name="VSS" type="power_in"/>
+        <pin num="H4" name="PD10" type="BiDi"/>
+        <pin num="H5" name="PD13" type="BiDi"/>
+        <pin num="H6" name="PD12" type="BiDi"/>
+        <pin num="H7" name="VSS" type="power_in"/>
+        <pin num="H8" name="PC0" type="BiDi"/>
+        <pin num="H9" name="NRST" type="input"/>
+        <pin num="H10" name="PH1" type="input"/>
+        <pin num="H11" name="PF8" type="BiDi"/>
+        <pin num="J1" name="PG2" type="BiDi"/>
+        <pin num="J2" name="PD14" type="BiDi"/>
+        <pin num="J3" name="PB15" type="BiDi"/>
+        <pin num="J4" name="PE10" type="BiDi"/>
+        <pin num="J5" name="VDD" type="power_in"/>
+        <pin num="J6" name="VDD" type="power_in"/>
+        <pin num="J7" name="VDD" type="power_in"/>
+        <pin num="J8" name="VDD" type="power_in"/>
+        <pin num="J9" name="PC3" type="BiDi"/>
+        <pin num="J10" name="PC2" type="BiDi"/>
+        <pin num="J11" name="PH0" type="input"/>
+        <pin num="K1" name="PD15" type="BiDi"/>
+        <pin num="K2" name="PD11" type="BiDi"/>
+        <pin num="K3" name="PB14" type="BiDi"/>
+        <pin num="K4" name="PE11" type="BiDi"/>
+        <pin num="K5" name="PG1" type="BiDi"/>
+        <pin num="K6" name="PF13" type="BiDi"/>
+        <pin num="K7" name="PB1" type="BiDi"/>
+        <pin num="K8" name="PA1" type="BiDi"/>
+        <pin num="K9" name="PA0" type="BiDi"/>
+        <pin num="K10" name="VSSA" type="power_in"/>
+        <pin num="K11" name="PC1" type="BiDi"/>
+        <pin num="L1" name="VDD" type="power_in"/>
+        <pin num="L2" name="PD8" type="BiDi"/>
+        <pin num="L3" name="PE15" type="BiDi"/>
+        <pin num="L4" name="PE12" type="BiDi"/>
+        <pin num="L5" name="PE7" type="BiDi"/>
+        <pin num="L6" name="PF14" type="BiDi"/>
+        <pin num="L7" name="PB2" type="BiDi"/>
+        <pin num="L8" name="PA7" type="BiDi"/>
+        <pin num="L9" name="PA2" type="BiDi"/>
+        <pin num="L10" name="VDDA" type="power_in"/>
+        <pin num="L11" name="VREF+" type="power_in"/>
+        <pin num="M1" name="PD9" type="BiDi"/>
+        <pin num="M2" name="PB12" type="BiDi"/>
+        <pin num="M3" name="PB10" type="BiDi"/>
+        <pin num="M4" name="PE14" type="BiDi"/>
+        <pin num="M5" name="PE8" type="BiDi"/>
+        <pin num="M6" name="PF15" type="BiDi"/>
+        <pin num="M7" name="PF11" type="BiDi"/>
+        <pin num="M8" name="PC4" type="BiDi"/>
+        <pin num="M9" name="PA5" type="BiDi"/>
+        <pin num="M10" name="PA4" type="BiDi"/>
+        <pin num="M11" name="PA3" type="BiDi"/>
+        <pin num="N1" name="PB13" type="BiDi"/>
+        <pin num="N2" name="VCAP_1" type="power_in"/>
+        <pin num="N3" name="PB11" type="BiDi"/>
+        <pin num="N4" name="PE13" type="BiDi"/>
+        <pin num="N5" name="PE9" type="BiDi"/>
+        <pin num="N6" name="PG0" type="BiDi"/>
+        <pin num="N7" name="PF12" type="BiDi"/>
+        <pin num="N8" name="PB0" type="BiDi"/>
+        <pin num="N9" name="PC5" type="BiDi"/>
+        <pin num="N10" name="PA6" type="BiDi"/>
+        <pin num="N11" name="BYPASS_REG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF" part="NRF24L01">
+      <aliases>
+        <alias>nRF24L01P</alias>
+      </aliases>
+      <description>Ultra low power 2.4GHz RF Transceiver, QFN-20</description>
+      <docs>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4*0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CE" type="input"/>
+        <pin num="2" name="CSN" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="MISO" type="output"/>
+        <pin num="6" name="IRQ" type="output"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="XC2" type="passive"/>
+        <pin num="10" name="XC1" type="passive"/>
+        <pin num="11" name="VDD_PA" type="power_out"/>
+        <pin num="12" name="ANT1" type="passive"/>
+        <pin num="13" name="ANT2" type="passive"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="VDD" type="power_in"/>
+        <pin num="16" name="IREF" type="passive"/>
+        <pin num="17" name="VSS" type="power_in"/>
+        <pin num="18" name="VDD" type="power_in"/>
+        <pin num="19" name="DVDD" type="power_out"/>
+        <pin num="20" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117-1.8">
+      <aliases>
+        <alias>LM1117-2.5</alias>
+        <alias>LM1117-3.3</alias>
+        <alias>LM1117-5.0</alias>
+        <alias>TLV1117-15</alias>
+        <alias>TLV1117-18</alias>
+        <alias>TLV1117-25</alias>
+        <alias>TLV1117-33</alias>
+        <alias>TLV1117-50</alias>
+      </aliases>
+      <description>800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-1.8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="MPU-9250">
+      <description>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI</description>
+      <docs>https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf</docs>
+      <footprints>
+        <fp>*QFN*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-9250</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESV_VDDIO" type="input"/>
+        <pin num="7" name="AUX_SCL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0/MISO" type="BiDi"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="20" name="RESV_GND" type="power_in"/>
+        <pin num="21" name="AUX_SDA" type="BiDi"/>
+        <pin num="22" name="~CS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/MOSI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="XRCHA16M000F0A01R0" part="XRCHA16M000F0A01R0">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">XRCHA16M000F0A01R0</field>
+        <field name="Footprint">OSC_XRCHA16M000F0A01R0</field>
+        <field name="Datasheet">Murata</field>
+        <field name="Field4">March 21, 2017</field>
+        <field name="Field5">Manufacturer Recommendations</field>
+        <field name="Field6">0.80mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Crystals" part="NX3225GD-8MHZ-STD-CRA-3">
+      <description>CRYSTAL 8.0000MHZ 8PF SMD</description>
+      <docs>http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</docs>
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Footprint">digikey-footprints:SMD-2_3.2x2.5mm</field>
+        <field name="Datasheet">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="Digi-Key_PN">644-1178-1-ND</field>
+        <field name="MPN">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="Family">Crystals</field>
+        <field name="DK_Datasheet_Link">http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ndk-america-inc/NX3225GD-8MHZ-STD-CRA-3/644-1178-1-ND/3125567</field>
+        <field name="Description">CRYSTAL 8.0000MHZ 8PF SMD</field>
+        <field name="Manufacturer">NDK America, Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_LED-Indication-Discrete" part="LTST-C190KRKT">
+      <description>LED RED CLEAR CHIP SMD</description>
+      <docs>http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LTST-C190KRKT</field>
+        <field name="Footprint">digikey-footprints:0603</field>
+        <field name="Datasheet">http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</field>
+        <field name="Digi-Key_PN">160-1436-1-ND</field>
+        <field name="MPN">LTST-C190KRKT</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">http://optoelectronics.liteon.com/upload/download/DS-22-99-0151/LTST-C190KRKT.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</field>
+        <field name="Description">LED RED CLEAR CHIP SMD</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eec" part="54550-1271">
+      <description>54550-1271</description>
+      <docs>http://www.molex.com/webdocs/datasheets/pdf/en-us/0545501271_FFC_FPC_CONNECTORS.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">54550-1271</field>
+        <field name="Footprint">Molex-54550-1271-*</field>
+        <field name="Datasheet">http://www.molex.com/webdocs/datasheets/pdf/en-us/0545501271_FFC_FPC_CONNECTORS.pdf</field>
+        <field name="Circuits Loaded">12</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www.molex.com/molex/index.jsp</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www.molex.com/pdm_docs/sd/545501271_sd.pdf</field>
+        <field name="Contact Position">Top</field>
+        <field name="Current Max per Contact">0.5A</field>
+        <field name="Durability mating cycles max">20</field>
+        <field name="Entry Angle">90degrees Angle</field>
+        <field name="Mated Height">1.20mm</field>
+        <field name="Material   Metal">Phosphor Bronze</field>
+        <field name="Material   Plating Mating">Gold</field>
+        <field name="Material   Plating Termination">Tin</field>
+        <field name="Mounting Technology">Surface Mount</field>
+        <field name="Number of Rows">1</field>
+        <field name="Orientation">Right Angle</field>
+        <field name="PCB Locator">No</field>
+        <field name="PCB Retention">Yes</field>
+        <field name="Package Description">12-Lead FPC Connector, Pitch 0.5 mm</field>
+        <field name="Package Version">Rev. M, 12/2009</field>
+        <field name="Packing">Tape and Reel</field>
+        <field name="Pitch   Mating Interface">0.50mm</field>
+        <field name="Polarized to PCB">Yes</field>
+        <field name="Stackable">No</field>
+        <field name="Voltage Max">50V</field>
+        <field name="category">Conn</field>
+        <field name="ciiva ids">3405311</field>
+        <field name="library id">6fefad498c7d1dcc</field>
+        <field name="manufacturer">Molex</field>
+        <field name="package">54550-1271</field>
+        <field name="release date">1411372735</field>
+        <field name="rohs">Yes</field>
+        <field name="vault revision">E29082AD-DFCB-4921-B0FD-859FA8CB5E1B</field>
+        <field name="imported">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0402ZC102KAT2A">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/0402ZC102KAT2A/0402ZC102KAT2A.lib</uri>
+    </library>
+    <library logical="06035C103MAT2A">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/06035C103MAT2A/06035C103MAT2A.lib</uri>
+    </library>
+    <library logical="06035C333KAT2A">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/06035C333KAT2A/06035C333KAT2A.lib</uri>
+    </library>
+    <library logical="0805YC104K4Z4A">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/0805YC104K4Z4A (1)/0805YC104K4Z4A.lib</uri>
+    </library>
+    <library logical="1-1622826-8">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/1-1622826-8/1-1622826-8.lib</uri>
+    </library>
+    <library logical="2020-09-26_23-31-02">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/ul_RC0201FR07100RL/KiCAD/2020-09-26_23-31-02/2020-09-26_23-31-02.lib</uri>
+    </library>
+    <library logical="8-1676481-3">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/8-1676481-3/8-1676481-3.lib</uri>
+    </library>
+    <library logical="AC0402BRNPO9BN1R5">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/AC0402BRNPO9BN1R5/AC0402BRNPO9BN1R5.lib</uri>
+    </library>
+    <library logical="AIMC-0805-3N9S-T">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/AIMC-0805-3N9S-T/AIMC-0805-3N9S-T.lib</uri>
+    </library>
+    <library logical="AMCA31-2R450G-S1F-T3">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/AMCA31-2R450G-S1F-T3/AMCA31-2R450G-S1F-T3.lib</uri>
+    </library>
+    <library logical="AQ1052N7S-T">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/AQ1052N7S-T/AQ1052N7S-T.lib</uri>
+    </library>
+    <library logical="CC0603BRNPO0BN4R7">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/CC0603BRNPO0BN4R7/CC0603BRNPO0BN4R7.lib</uri>
+    </library>
+    <library logical="CC0603CRNPO8BN1R0">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/CC0603CRNPO8BN1R0/CC0603CRNPO8BN1R0.lib</uri>
+    </library>
+    <library logical="CE201210-8N2J">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/CE201210-8N2J/CE201210-8N2J.lib</uri>
+    </library>
+    <library logical="CL31A107MQHNNNE">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/CL31A107MQHNNNE/CL31A107MQHNNNE.lib</uri>
+    </library>
+    <library logical="EMK212B7225MG-T">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/EMK212B7225MG-T/EMK212B7225MG-T.lib</uri>
+    </library>
+    <library logical="FSM8JH">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/FSM8JH/FSM8JH.lib</uri>
+    </library>
+    <library logical="GCE21BR71H104KA01L">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GCE21BR71H104KA01L/GCE21BR71H104KA01L.lib</uri>
+    </library>
+    <library logical="GCJ21BR71A106KE01L">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GCJ21BR71A106KE01L/GCJ21BR71A106KE01L.lib</uri>
+    </library>
+    <library logical="GCM21BR11E105KA42L">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GCM21BR11E105KA42L/GCM21BR11E105KA42L.lib</uri>
+    </library>
+    <library logical="GRM0335C1H8R0DA01D">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GRM0335C1H8R0DA01D/GRM0335C1H8R0DA01D.lib</uri>
+    </library>
+    <library logical="GRM188C71E225KE11J">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/GRM188C71E225KE11J/GRM188C71E225KE11J.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F4">
+      <uri>/Library/Application Support/kicad/library/MCU_ST_STM32F4.lib</uri>
+    </library>
+    <library logical="RF">
+      <uri>/Library/Application Support/kicad/library/RF.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>/Library/Application Support/kicad/library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="XRCHA16M000F0A01R0">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/XRCHA16M000F0A01R0/XRCHA16M000F0A01R0.lib</uri>
+    </library>
+    <library logical="dk_Crystals">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/digikey-kicad-library-master/digikey-symbols/dk_Crystals.lib</uri>
+    </library>
+    <library logical="dk_LED-Indication-Discrete">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/digikey-kicad-library-master/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
+    </library>
+    <library logical="eec">
+      <uri>/Users/Soham/Desktop/School/ECE 397 B2/KiCad project/libs/Conn_Molex_54550-1271/eec.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-PadK9)">
+      <node ref="U1" pin="K9"/>
+    </net>
+    <net code="2" name="Net-(U1-PadK8)">
+      <node ref="U1" pin="K8"/>
+    </net>
+    <net code="3" name="USART1-RX">
+      <node ref="U1" pin="D5"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="4" name="USART1-CTS">
+      <node ref="U1" pin="D4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="5" name="USART1-RTS">
+      <node ref="U1" pin="E1"/>
+    </net>
+    <net code="6" name="JTMS-SWDIO">
+      <node ref="U1" pin="D3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="JTCK-SWCLK">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="B1"/>
+    </net>
+    <net code="8" name="JTDI">
+      <node ref="J1" pin="11"/>
+      <node ref="U1" pin="C2"/>
+    </net>
+    <net code="9" name="Net-(U1-PadL9)">
+      <node ref="U1" pin="L9"/>
+    </net>
+    <net code="10" name="Net-(U1-PadM11)">
+      <node ref="U1" pin="M11"/>
+    </net>
+    <net code="11" name="Net-(U1-PadM10)">
+      <node ref="U1" pin="M10"/>
+    </net>
+    <net code="12" name="USART1-CK">
+      <node ref="U1" pin="F1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="13" name="USART1-TX">
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="E2"/>
+    </net>
+    <net code="14" name="Net-(U1-PadN8)">
+      <node ref="U1" pin="N8"/>
+    </net>
+    <net code="15" name="Net-(U1-PadK7)">
+      <node ref="U1" pin="K7"/>
+    </net>
+    <net code="16" name="Net-(U1-PadM3)">
+      <node ref="U1" pin="M3"/>
+    </net>
+    <net code="17" name="Net-(U1-PadN3)">
+      <node ref="U1" pin="N3"/>
+    </net>
+    <net code="18" name="Net-(U1-PadM2)">
+      <node ref="U1" pin="M2"/>
+    </net>
+    <net code="19" name="Net-(U1-PadN1)">
+      <node ref="U1" pin="N1"/>
+    </net>
+    <net code="20" name="Net-(U1-PadK3)">
+      <node ref="U1" pin="K3"/>
+    </net>
+    <net code="21" name="Net-(U1-PadJ3)">
+      <node ref="U1" pin="J3"/>
+    </net>
+    <net code="22" name="Net-(U1-PadL7)">
+      <node ref="U1" pin="L7"/>
+    </net>
+    <net code="23" name="JTDO-SWO">
+      <node ref="J1" pin="10"/>
+      <node ref="U1" pin="B7"/>
+    </net>
+    <net code="24" name="NJTRST">
+      <node ref="U1" pin="C7"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="25" name="Net-(U1-PadC8)">
+      <node ref="U1" pin="C8"/>
+    </net>
+    <net code="26" name="Net-(U1-PadA8)">
+      <node ref="U1" pin="A8"/>
+    </net>
+    <net code="27" name="Net-(U1-PadB8)">
+      <node ref="U1" pin="B8"/>
+    </net>
+    <net code="28" name="Net-(U1-PadA9)">
+      <node ref="U1" pin="A9"/>
+    </net>
+    <net code="29" name="Net-(U1-PadB9)">
+      <node ref="U1" pin="B9"/>
+    </net>
+    <net code="30" name="Net-(U1-PadH8)">
+      <node ref="U1" pin="H8"/>
+    </net>
+    <net code="31" name="Net-(U1-PadK11)">
+      <node ref="U1" pin="K11"/>
+    </net>
+    <net code="32" name="Net-(U1-PadA2)">
+      <node ref="U1" pin="A2"/>
+    </net>
+    <net code="33" name="Net-(U1-PadB2)">
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="34" name="Net-(U1-PadC3)">
+      <node ref="U1" pin="C3"/>
+    </net>
+    <net code="35" name="Net-(U1-PadD10)">
+      <node ref="U1" pin="D10"/>
+    </net>
+    <net code="36" name="Net-(U1-PadD11)">
+      <node ref="U1" pin="D11"/>
+    </net>
+    <net code="37" name="Net-(U1-PadE11)">
+      <node ref="U1" pin="E11"/>
+    </net>
+    <net code="38" name="Net-(U1-PadJ10)">
+      <node ref="U1" pin="J10"/>
+    </net>
+    <net code="39" name="Net-(U1-PadJ9)">
+      <node ref="U1" pin="J9"/>
+    </net>
+    <net code="40" name="Net-(U1-PadM8)">
+      <node ref="U1" pin="M8"/>
+    </net>
+    <net code="41" name="Net-(U1-PadN9)">
+      <node ref="U1" pin="N9"/>
+    </net>
+    <net code="42" name="Net-(U1-PadF2)">
+      <node ref="U1" pin="F2"/>
+    </net>
+    <net code="43" name="Net-(U1-PadF3)">
+      <node ref="U1" pin="F3"/>
+    </net>
+    <net code="44" name="Net-(U1-PadE4)">
+      <node ref="U1" pin="E4"/>
+    </net>
+    <net code="45" name="Net-(U1-PadE3)">
+      <node ref="U1" pin="E3"/>
+    </net>
+    <net code="46" name="Net-(U1-PadH4)">
+      <node ref="U1" pin="H4"/>
+    </net>
+    <net code="47" name="Net-(U1-PadK2)">
+      <node ref="U1" pin="K2"/>
+    </net>
+    <net code="48" name="Net-(U1-PadH6)">
+      <node ref="U1" pin="H6"/>
+    </net>
+    <net code="49" name="Net-(U1-PadH5)">
+      <node ref="U1" pin="H5"/>
+    </net>
+    <net code="50" name="Net-(U1-PadJ2)">
+      <node ref="U1" pin="J2"/>
+    </net>
+    <net code="51" name="Net-(U1-PadK1)">
+      <node ref="U1" pin="K1"/>
+    </net>
+    <net code="52" name="Net-(U1-PadB5)">
+      <node ref="U1" pin="B5"/>
+    </net>
+    <net code="53" name="Net-(U1-PadA4)">
+      <node ref="U1" pin="A4"/>
+    </net>
+    <net code="54" name="Net-(U1-PadF4)">
+      <node ref="U1" pin="F4"/>
+    </net>
+    <net code="55" name="Net-(U1-PadA5)">
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="56" name="Net-(U1-PadL2)">
+      <node ref="U1" pin="L2"/>
+    </net>
+    <net code="57" name="Net-(U1-PadM1)">
+      <node ref="U1" pin="M1"/>
+    </net>
+    <net code="58" name="Net-(U1-PadB10)">
+      <node ref="U1" pin="B10"/>
+    </net>
+    <net code="59" name="Net-(U1-PadA10)">
+      <node ref="U1" pin="A10"/>
+    </net>
+    <net code="60" name="Net-(U1-PadJ4)">
+      <node ref="U1" pin="J4"/>
+    </net>
+    <net code="61" name="Net-(U1-PadK4)">
+      <node ref="U1" pin="K4"/>
+    </net>
+    <net code="62" name="Net-(U1-PadL4)">
+      <node ref="U1" pin="L4"/>
+    </net>
+    <net code="63" name="Net-(U1-PadN4)">
+      <node ref="U1" pin="N4"/>
+    </net>
+    <net code="64" name="Net-(U1-PadM4)">
+      <node ref="U1" pin="M4"/>
+    </net>
+    <net code="65" name="Net-(U1-PadL3)">
+      <node ref="U1" pin="L3"/>
+    </net>
+    <net code="66" name="Net-(U1-PadD8)">
+      <node ref="U1" pin="D8"/>
+    </net>
+    <net code="67" name="Net-(U1-PadC10)">
+      <node ref="U1" pin="C10"/>
+    </net>
+    <net code="68" name="Net-(U1-PadB11)">
+      <node ref="U1" pin="B11"/>
+    </net>
+    <net code="69" name="Net-(U1-PadD9)">
+      <node ref="U1" pin="D9"/>
+    </net>
+    <net code="70" name="Net-(U1-PadE8)">
+      <node ref="U1" pin="E8"/>
+    </net>
+    <net code="71" name="Net-(U1-PadL5)">
+      <node ref="U1" pin="L5"/>
+    </net>
+    <net code="72" name="Net-(U1-PadM5)">
+      <node ref="U1" pin="M5"/>
+    </net>
+    <net code="73" name="Net-(U1-PadN5)">
+      <node ref="U1" pin="N5"/>
+    </net>
+    <net code="74" name="Net-(U1-PadF11)">
+      <node ref="U1" pin="F11"/>
+    </net>
+    <net code="75" name="Net-(U1-PadE9)">
+      <node ref="U1" pin="E9"/>
+    </net>
+    <net code="76" name="Net-(U1-PadG9)">
+      <node ref="U1" pin="G9"/>
+    </net>
+    <net code="77" name="Net-(U1-PadM7)">
+      <node ref="U1" pin="M7"/>
+    </net>
+    <net code="78" name="Net-(U1-PadN7)">
+      <node ref="U1" pin="N7"/>
+    </net>
+    <net code="79" name="Net-(U1-PadK6)">
+      <node ref="U1" pin="K6"/>
+    </net>
+    <net code="80" name="Net-(U1-PadL6)">
+      <node ref="U1" pin="L6"/>
+    </net>
+    <net code="81" name="Net-(U1-PadM6)">
+      <node ref="U1" pin="M6"/>
+    </net>
+    <net code="82" name="Net-(U1-PadF10)">
+      <node ref="U1" pin="F10"/>
+    </net>
+    <net code="83" name="Net-(U1-PadG11)">
+      <node ref="U1" pin="G11"/>
+    </net>
+    <net code="84" name="Net-(U1-PadF9)">
+      <node ref="U1" pin="F9"/>
+    </net>
+    <net code="85" name="Net-(U1-PadF8)">
+      <node ref="U1" pin="F8"/>
+    </net>
+    <net code="86" name="Net-(U1-PadG10)">
+      <node ref="U1" pin="G10"/>
+    </net>
+    <net code="87" name="Net-(U1-PadF7)">
+      <node ref="U1" pin="F7"/>
+    </net>
+    <net code="88" name="Net-(U1-PadH11)">
+      <node ref="U1" pin="H11"/>
+    </net>
+    <net code="89" name="Net-(U1-PadG8)">
+      <node ref="U1" pin="G8"/>
+    </net>
+    <net code="90" name="Net-(U1-PadN6)">
+      <node ref="U1" pin="N6"/>
+    </net>
+    <net code="91" name="Net-(U1-PadK5)">
+      <node ref="U1" pin="K5"/>
+    </net>
+    <net code="92" name="Net-(U1-PadC6)">
+      <node ref="U1" pin="C6"/>
+    </net>
+    <net code="93" name="Net-(U1-PadB6)">
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="94" name="Net-(U1-PadA6)">
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="95" name="Net-(U1-PadD6)">
+      <node ref="U1" pin="D6"/>
+    </net>
+    <net code="96" name="Net-(U1-PadF6)">
+      <node ref="U1" pin="F6"/>
+    </net>
+    <net code="97" name="Net-(U1-PadA7)">
+      <node ref="U1" pin="A7"/>
+    </net>
+    <net code="98" name="Net-(U1-PadJ1)">
+      <node ref="U1" pin="J1"/>
+    </net>
+    <net code="99" name="Net-(U1-PadG3)">
+      <node ref="U1" pin="G3"/>
+    </net>
+    <net code="100" name="Net-(U1-PadG5)">
+      <node ref="U1" pin="G5"/>
+    </net>
+    <net code="101" name="Net-(U1-PadG6)">
+      <node ref="U1" pin="G6"/>
+    </net>
+    <net code="102" name="Net-(U1-PadG4)">
+      <node ref="U1" pin="G4"/>
+    </net>
+    <net code="103" name="Net-(U1-PadH1)">
+      <node ref="U1" pin="H1"/>
+    </net>
+    <net code="104" name="Net-(U1-PadG2)">
+      <node ref="U1" pin="G2"/>
+    </net>
+    <net code="105" name="Net-(U1-PadE5)">
+      <node ref="U1" pin="E5"/>
+    </net>
+    <net code="106" name="Net-(C19-Pad2)">
+      <node ref="U1" pin="N2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C20-Pad2)">
+      <node ref="U1" pin="D1"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="109" name="IMU_INT">
+      <node ref="U3" pin="12"/>
+      <node ref="U1" pin="C4"/>
+    </net>
+    <net code="110" name="IMU_CS">
+      <node ref="U3" pin="22"/>
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="111" name="SPI1-SCLK">
+      <node ref="U3" pin="23"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="M9"/>
+    </net>
+    <net code="112" name="SPI1-MOSI">
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U1" pin="L8"/>
+    </net>
+    <net code="113" name="SPI1-MISO">
+      <node ref="U2" pin="5"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="N10"/>
+    </net>
+    <net code="114" name="Net-(D3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="115" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="U1" pin="J11"/>
+    </net>
+    <net code="116" name="GND">
+      <node ref="C32" pin="1"/>
+      <node ref="U1" pin="C9"/>
+      <node ref="U1" pin="N11"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U1" pin="D2"/>
+      <node ref="U1" pin="E7"/>
+      <node ref="U1" pin="F5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="H2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U1" pin="H3"/>
+      <node ref="U1" pin="H7"/>
+      <node ref="U1" pin="K10"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="20"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U3" pin="7"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="117" name="Net-(C22-Pad2)">
+      <node ref="X1" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="118" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="H10"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="119" name="+3V3">
+      <node ref="C10" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="A11"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="C11"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="U1" pin="C1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="C5"/>
+      <node ref="U1" pin="D7"/>
+      <node ref="U1" pin="E10"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="E6"/>
+      <node ref="U1" pin="G1"/>
+      <node ref="U1" pin="G7"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="J5"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="J6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="J7"/>
+      <node ref="U1" pin="J8"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="L1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="L10"/>
+      <node ref="U1" pin="L11"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="120" name="NRF_CS">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="A3"/>
+    </net>
+    <net code="121" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="122" name="Net-(C29-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="X2" pin="2"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="123" name="Net-(C28-Pad1)">
+      <node ref="U2" pin="10"/>
+      <node ref="X2" pin="1"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="124" name="NRF_CE">
+      <node ref="U1" pin="B4"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="125" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="126" name="Net-(C23-Pad2)">
+      <node ref="U2" pin="19"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="127" name="Net-(C26-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="128" name="Net-(L1-Pad1)">
+      <node ref="U2" pin="13"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="129" name="Net-(L1-Pad2)">
+      <node ref="U2" pin="12"/>
+      <node ref="L2" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="130" name="Net-(ANT1-Pad1)">
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="ANT1" pin="1"/>
+    </net>
+    <net code="131" name="Net-(C30-Pad2)">
+      <node ref="C30" pin="2"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="132" name="Net-(D2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="134" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="135" name="Net-(C18-Pad2)">
+      <node ref="U1" pin="H9"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="136" name="Net-(J1-PadMP1)">
+      <node ref="J1" pin="MP1"/>
+    </net>
+    <net code="137" name="Net-(J1-PadMP2)">
+      <node ref="J1" pin="MP2"/>
+    </net>
+    <net code="138" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="139" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>

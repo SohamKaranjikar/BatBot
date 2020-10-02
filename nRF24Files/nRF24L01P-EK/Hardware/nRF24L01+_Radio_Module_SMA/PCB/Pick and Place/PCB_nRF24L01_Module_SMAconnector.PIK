@@ -1,0 +1,21 @@
+Designator Pattern                Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation
+
+J2         SMA_H               613.5mil       -149mil      613.5mil       -149mil      613.5mil       -149mil  T        270.00
+C2         0402s             294.071mil   -288.268mil    294.071mil   -307.953mil    294.071mil   -307.953mil  T         90.00
+J1         IDC8                  -50mil       -150mil       -100mil          0mil       -100mil          0mil  T        270.00
+U1         QFN20L/5x5        149.087mil    -107.87mil     82.158mil        -68mil     74.158mil        -68mil  T          0.00
+C7         0402s              90.315mil          5mil        110mil          5mil        110mil          5mil  T        180.00
+C9         0402s             168.842mil         38mil    149.157mil         38mil    149.157mil         38mil  T        360.00
+C8         0402s             168.685mil          5mil        149mil          5mil        149mil          5mil  T        360.00
+R2         0402s                 235mil      5.685mil        235mil        -14mil        235mil        -14mil  T         90.00
+L1         0402s                 273mil   -117.185mil        273mil      -97.5mil        273mil      -97.5mil  T        270.00
+L3         0402s             325.685mil      -96.5mil        306mil      -96.5mil        306mil      -96.5mil  T        360.00
+C6         0402s                 450mil    -74.315mil        450mil        -94mil        450mil        -94mil  T         90.00
+C5         0402s             399.315mil      -96.5mil        419mil      -96.5mil        419mil      -96.5mil  T        180.00
+C4         0402s             361.815mil       -216mil      381.5mil       -216mil      381.5mil       -216mil  T        180.00
+C3         0402s             363.315mil       -182mil        383mil       -182mil        383mil       -182mil  T        180.00
+L2         0402s                 307mil   -159.815mil        307mil     -179.5mil        307mil     -179.5mil  T         90.00
+R1         0402s             177.732mil   -220.071mil    158.047mil   -220.071mil    158.047mil   -220.071mil  T        360.00
+X1         BT-XTAL           183.024mil   -294.536mil    124.047mil   -326.071mil    124.047mil   -326.071mil  T        360.00
+C1         0402s              70.929mil   -309.362mil     70.929mil   -329.047mil     70.929mil   -329.047mil  T         90.00
+
