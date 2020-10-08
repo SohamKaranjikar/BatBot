@@ -1,4 +1,4 @@
-update=Friday, October 02, 2020 at 12:26:28 PM
+update=Monday, October 05, 2020 at 02:57:10 AM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ AllowMicroVias=1
 AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.076
+MinTrackWidth=0.07619999999999999
 MinViaDiameter=0.2
 MinViaDrill=0.09999999999999999
 MinMicroViaDiameter=0.2
@@ -71,7 +71,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0.08
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
