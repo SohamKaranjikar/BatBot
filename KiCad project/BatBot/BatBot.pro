@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=Sunday, October 11, 2020 at 08:08:36 PM
+=======
+update=10/8/2020 8:50:34 PM
+>>>>>>> 19e542001b335d80d6777017b347aed1b77ecb6e
 version=1
 last_client=kicad
 [general]
@@ -42,14 +46,20 @@ TrackWidth1=0.0762
 TrackWidth2=0.0762
 TrackWidth3=0.1
 TrackWidth4=0.2
+TrackWidth5=0.254
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.25
 ViaDrill2=0.15
 ViaDiameter3=0.25
 ViaDrill3=0.15
+<<<<<<< HEAD
 ViaDiameter4=0.3
 ViaDrill4=0.15
+=======
+ViaDiameter4=0.4
+ViaDrill4=0.2
+>>>>>>> 19e542001b335d80d6777017b347aed1b77ecb6e
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
